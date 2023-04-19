@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Android_dv"
+        android:layout_width="match_parent"
+        android:layout_height="1200dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        style="@style/Animation"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/translete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="traslete"
+        android:layout_marginLeft="5dp"
+        android:ems="12"
+        android:layout_gravity="bottom"/>
+    <Button
+        android:id="@+id/alpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alpha"
+        android:ems="12"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="bottom"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="rotate"
+        android:ems="12"
+        android:layout_gravity="bottom"/>
+    <Button
+        android:id="@+id/scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scale"
+        android:layout_marginLeft="5dp"
+        android:ems="12"
+        android:layout_gravity="bottom"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
